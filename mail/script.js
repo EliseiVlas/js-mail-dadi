@@ -6,7 +6,9 @@
 
 // creo una lista di email
 const listaMail = ["vlaselisei@gmail.com", "francesc@gmail.com", "maria@gmail.com", "francesca@gmail.com", "marco@gmail.com"]
-console.log(listaMail)
+console.log(listaMail);
+
+//input per inserire la mail al utente
 let userEmail = prompt("inserisci la tua mail")
 let controllo = false;
 for (let i = 0; i < listaMail.length; i++){
