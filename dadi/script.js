@@ -10,4 +10,26 @@
 // 4. torniamo a scrivere in italiano
 // 5. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo “a mano”
 
+// le facce dei dadi
+const nrDadi = [1, 2, 3, 4, 5, 6];
 
+// tiro a caso del dado
+//numero casuale del utente
+const utente = Math.floor(Math.random() * 6) + 1;
+console.log(utente);
+//numero casuale del pc
+const pc = Math.floor(Math.random() * 6) + 1;
+console.log(pc);
+
+// vincitore tra pc e utente
+// se vince l'utente
+if(utente>pc){
+    console.log("Qesto giro hai vinto te.. vinci con " + utente + " " + "punti contro il pc che ha fatto" + " " + pc);    
+    //se vince il pc
+}else if(utente<pc){
+    console.log("Sfortuna.. questo giro hai perso contro il pc")
+    //se pareggiano
+}else{
+    console.log("Nessuno vince.. avete pareggiato")
+}
+    
